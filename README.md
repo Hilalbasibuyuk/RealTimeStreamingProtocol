@@ -6,5 +6,20 @@ Gerçek Zamanlı Akış Protokolü (RTSP), verileri aktaran sunucuyla doğrudan 
 
 
 
+## RTSP Commands
+
+- **Options:** This request determines what other types of requests the media server will accept.
+- **Describe:** A describe request identifies the URL and type of data.
+- **Announce:** The announce method describes the presentation when sent from the client to the server and updates the description when sent from server to client.
+- **Setup:** Setup requests specify how a media stream must be transported before a play request is sent.
+- **Play:** A play request starts the media transmission by telling the server to start sending the data.
+- **Pause:** Pause requests temporarily halt the stream delivery.
+- **Record:** A record request initiates a media recording.
+- **Teardown:** This request terminates the session entirely and stops all media streams.
+- **Redirect:** Redirect requests inform the client that it must connect to another server by providing a new URL for the client to issue requests to.
 
 
+
+
+# KAYNAKÇA
+- https://www.wowza.com/blog/rtsp-the-real-time-streaming-protocol-explained
